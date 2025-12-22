@@ -51,15 +51,15 @@ export function Header() {
   const linkColorClasses = cn(
       'font-semibold text-base transition-colors duration-200',
       isScrolled || !isHomePage
-      ? 'text-foreground/70 hover:text-accent-foreground hover:bg-accent/10' // Scrolled or not on home
-      : 'text-primary-foreground/80 hover:text-primary-foreground hover:bg-white/10' // Top of homepage
+      ? 'text-foreground/70 hover:text-accent-foreground hover:bg-accent/20' // Scrolled or not on home
+      : 'text-primary-foreground/80 hover:text-primary-foreground hover:bg-white/20' // Top of homepage
   );
   
   // Dynamic classes for the currently active navigation link
   const activeLinkColorClasses = cn(
       isScrolled || !isHomePage
-      ? 'text-accent-foreground bg-accent/10' // Scrolled or not on home
-      : 'text-primary-foreground bg-white/10' // Top of homepage
+      ? 'text-accent-foreground bg-accent/20 hover:bg-accent/20' // Scrolled or not on home
+      : 'text-primary-foreground bg-white/20 hover:bg-white/20' // Top of homepage
   );
 
   return (
