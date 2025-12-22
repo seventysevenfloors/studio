@@ -32,16 +32,20 @@ export function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const isHomePage = pathname === '/';
+
   return (
     <header
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
-        isScrolled ? 'bg-card/95 shadow-md backdrop-blur-sm' : 'bg-transparent'
+        isScrolled || !isHomePage
+          ? 'bg-card/95 shadow-md backdrop-blur-sm'
+          : 'bg-transparent'
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className={cn(isScrolled ? 'text-primary' : 'text-primary-foreground dark:text-primary')} />
+          <Logo className={cn(isScrolled || !isHomePage ? 'text-primary' : 'text-primary-foreground dark:text-primary')} />
         </Link>
 
         {/* Desktop Navigation */}
@@ -54,11 +58,11 @@ export function Header() {
               className={cn(
                 'font-semibold text-base',
                 pathname === link.href
-                  ? (isScrolled ? 'text-accent-foreground bg-accent/80' : 'text-primary bg-primary-foreground/90')
-                  : isScrolled
+                  ? (isScrolled || !isHomePage ? 'text-accent-foreground bg-accent/80' : 'text-primary bg-primary-foreground/90')
+                  : (isScrolled || !isHomePage
                   ? 'text-foreground/70 hover:text-foreground'
-                  : 'text-foreground hover:bg-white/10 hover:text-foreground',
-                isScrolled && pathname === link.href && 'bg-accent/50 text-accent-foreground'
+                  : 'text-primary-foreground hover:bg-white/10 hover:text-primary-foreground'),
+                (isScrolled || !isHomePage) && pathname === link.href && 'bg-accent/50 text-accent-foreground'
               )}
             >
               <Link href={link.href}>{link.label}</Link>
@@ -75,7 +79,7 @@ export function Header() {
         <div className="md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(isScrolled ? 'text-foreground' : 'text-primary-foreground')}>
+              <Button variant="ghost" size="icon" className={cn(isScrolled || !isHomePage ? 'text-foreground' : 'text-primary-foreground')}>
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Open menu</span>
               </Button>
