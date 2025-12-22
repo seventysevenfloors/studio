@@ -66,3 +66,27 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .animated-underline {
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 4px;
+  }
+
+  .animated-underline::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: hsl(var(--accent));
+    transition: width 0.3s ease-out;
+  }
+
+  .animated-underline:hover::after,
+  .animated-underline.active::after {
+    width: 100%;
+  }
+}
