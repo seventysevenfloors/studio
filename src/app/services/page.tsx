@@ -58,7 +58,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-background">
+      <section className="py-16 md:py-24 bg-background overflow-x-hidden">
         <div className="container mx-auto px-4">
           <div className="space-y-16">
             {servicesData.map((service, index) => {

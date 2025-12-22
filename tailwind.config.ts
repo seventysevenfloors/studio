@@ -140,7 +140,7 @@ export default {
         'fade-in-up': 'fade-in-up 0.6s ease-out forwards',
         'slide-in-from-left': 'slide-in-from-left 0.6s ease-out forwards',
         'slide-in-from-right': 'slide-in-from-right 0.6s ease-out forwards',
-        'zoom-in': 'zoom-in 0.6s ease-out forwards',
+        'zoom-in': 'zoom-in 1.2s ease-out forwards',
       },
     },
   },

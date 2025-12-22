@@ -58,7 +58,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-16 md:py-24 bg-card">
+      <section className="py-16 md:py-24 bg-card overflow-x-hidden">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="relative h-80 md:h-full w-full rounded-lg overflow-hidden shadow-lg animate-slide-in-from-left">

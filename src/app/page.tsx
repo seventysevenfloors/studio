@@ -33,13 +33,13 @@ const services = [
 export default function Home() {
   return (
     <div className="flex flex-col">
-      <section className="relative h-screen w-full flex items-center justify-center text-center text-white">
+      <section className="relative h-screen w-full flex items-center justify-center text-center text-white overflow-hidden">
         {heroImage && (
           <Image
             src={heroImage.imageUrl}
             alt={heroImage.description}
             fill
-            className="object-cover"
+            className="object-cover animate-zoom-in"
             priority
             data-ai-hint={heroImage.imageHint}
           />
