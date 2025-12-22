@@ -39,7 +39,7 @@ export function Header() {
       className={cn(
         'sticky top-0 z-50 w-full transition-all duration-300',
         isScrolled || !isHomePage
-          ? 'bg-card/95 shadow-md backdrop-blur-sm'
+          ? 'bg-card shadow-md'
           : 'bg-transparent'
       )}
     >
