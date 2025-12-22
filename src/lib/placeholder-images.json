@@ -3,7 +3,7 @@
     {
       "id": "hero",
       "description": "An aerial view of a city with illuminated skyscrapers at dusk.",
-      "imageUrl": "/imageByMe/hero1.webp",
+      "imageUrl": "https://images.unsplash.com/photo-1578052315041-06c7c248b325?auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGNvbnN0cnVjdGlvbnxlbnwwfHwwfHx8MA%3D%3D",
       "imageHint": "city skyscrapers"
     },
     {
@@ -45,7 +45,7 @@
     {
       "id": "team-member-3",
       "description": "Portrait of a male construction lead.",
-      "imageUrl": "https://images.unsplash.com/photo-1694521787193-9293daeddbaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1694521787193-9293daeddbaa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29uc3RydWN0aW9uJTIwd29ya2VyfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "construction worker"
     },
     {
@@ -75,13 +75,13 @@
     {
       "id": "project-5",
       "description": "A modern retail storefront.",
-      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmV0YWlsJTIwc3RvcmV8ZW58MHx8fHwxNzY2MzIxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmV0YWlsJTIwc3RvcmV8ZW58MHx8fHwxNzY2MzIxMDQ0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "retail store"
     },
     {
       "id": "project-6",
       "description": "Structural steel frame of a new building.",
-      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "steel frame"
     },
     {
@@ -105,19 +105,19 @@
     {
       "id": "gallery-4",
       "description": "Workers pouring concrete.",
-      "imageUrl": "https://images.unsplash.com/photo-1574757987642-5755f0839101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3VyaW5nJTIwY29uY3JldGV8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1574757987642-5755f0839101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3VyaW5nJTIwY29uY3JldGV8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pouring concrete"
     },
     {
       "id": "gallery-5",
       "description": "Aerial view of a completed residential complex.",
-      "imageUrl": "https://images.unsplash.com/photo-1634161377437-f62ae060e21a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXNpZGVudGlhbCUyMGNvbXBsZXh8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1634161377437-f62ae060e21a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXNpZGVudGlhbCUyMGNvbXBsZXh8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "residential complex"
     },
     {
       "id": "gallery-6",
       "description": "Close-up of building materials.",
-      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWlsZGluZyUyMG1hdGVyaWFsc3xlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWlsZGluZyUyMG1hdGVyaWFsc3xlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "building materials"
     },
     {
@@ -135,7 +135,7 @@
     {
       "id": "gallery-9",
       "description": "A beautifully landscaped exterior of a building.",
-      "imageUrl": "https://images.unsplash.com/photo-1616386573884-22531fd226e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidWlsZGluZyUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616386573884-22531fd226e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidWlsZGluZyUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "building landscape"
     },
     {
