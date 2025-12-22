@@ -80,7 +80,7 @@ export function Header() {
               className={cn(
                 'hover:bg-transparent animated-underline',
                 linkColorClasses,
-                pathname === link.href ? cn('active', activeLinkColorClasses) : '',
+                pathname === link.href ? activeLinkColorClasses : '',
               )}
             >
               <Link href={link.href}>{link.label}</Link>
