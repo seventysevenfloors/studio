@@ -3,6 +3,7 @@ import './globals.css';
 import { Header } from '@/components/layout/header';
 import { Footer } from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster";
+import { FloatingContactButtons } from '@/components/floating-contact-buttons';
 
 export const metadata: Metadata = {
   title: 'Apex Build | Construction & Development',
@@ -25,6 +26,7 @@ export default function RootLayout({
       <body className="font-body antialiased">
         <Header />
         <main>{children}</main>
+        <FloatingContactButtons />
         <Footer />
         <Toaster />
       </body>
