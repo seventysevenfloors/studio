@@ -50,7 +50,7 @@ export function Header() {
   const activeLinkColorClasses = cn(
       isScrolled || !isHomePage
       ? 'text-accent-foreground bg-accent/80'
-      : 'bg-foreground/10 text-foreground'
+      : 'text-foreground bg-foreground/10'
   );
 
   return (
