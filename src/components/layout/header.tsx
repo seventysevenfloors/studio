@@ -50,8 +50,8 @@ export function Header() {
   // Dynamic classes for navigation link colors
   const linkColorClasses = cn(
       isScrolled || !isHomePage
-      ? 'text-foreground/70 hover:text-foreground' // Scrolled or not on home
-      : 'text-primary-foreground/80 hover:text-primary-foreground' // Top of homepage
+      ? 'text-foreground/70 hover:text-accent-foreground hover:bg-accent/10' // Scrolled or not on home
+      : 'text-primary-foreground/80 hover:text-primary-foreground hover:bg-white/10' // Top of homepage
   );
   
   // Dynamic classes for the currently active navigation link
@@ -77,7 +77,7 @@ export function Header() {
               asChild
               variant="ghost"
               className={cn(
-                'font-semibold text-base',
+                'font-semibold text-base transition-colors duration-200',
                 // Apply active or default link styles
                 pathname === link.href ? activeLinkColorClasses : linkColorClasses,
               )}
