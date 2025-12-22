@@ -51,7 +51,7 @@ export default function AboutPage() {
     <>
       <section className="bg-primary text-primary-foreground py-20 md:py-28 text-center animate-fade-in-down">
         <div className="container mx-auto px-4">
-          <h1 className="font-headline text-4xl md:text-5xl font-bold">About Apex Build</h1>
+          <h1 className="font-headline text-4xl md:text-5xl font-bold">About seventysevenfloors</h1>
           <p className="mt-4 max-w-3xl mx-auto text-lg text-primary-foreground/80" style={{ animationDelay: '0.2s' }}>
             Founded on the principles of quality, integrity, and innovation, we have been a trusted partner in construction for over two decades.
           </p>
@@ -75,7 +75,7 @@ export default function AboutPage() {
             <div className="animate-slide-in-from-right">
               <h2 className="font-headline text-3xl font-bold mb-4">Our Story</h2>
               <p className="text-muted-foreground mb-4" style={{ animationDelay: '0.2s' }}>
-                Apex Build was founded with a simple yet powerful mission: to build structures that are not only aesthetically pleasing but also durable and functional. Over the years, we have grown from a small local firm into a leading construction company, renowned for our commitment to excellence and client satisfaction.
+                seventysevenfloors was founded with a simple yet powerful mission: to build structures that are not only aesthetically pleasing but also durable and functional. Over the years, we have grown from a small local firm into a leading construction company, renowned for our commitment to excellence and client satisfaction.
               </p>
               <p className="text-muted-foreground" style={{ animationDelay: '0.4s' }}>
                 Our journey has been marked by a relentless pursuit of innovation, adopting the latest technologies and sustainable practices to deliver projects that stand the test of time. We believe that a successful project is born from a strong partnership with our clients, built on transparency, communication, and mutual respect.

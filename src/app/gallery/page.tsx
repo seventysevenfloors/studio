@@ -10,7 +10,7 @@ export default function GalleryPage() {
         <div className="container mx-auto px-4">
           <h1 className="font-headline text-4xl md:text-5xl font-bold">Project Gallery</h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-primary-foreground/80">
-            Explore the craftsmanship and quality of Apex Build through our visual portfolio.
+            Explore the craftsmanship and quality of seventysevenfloors through our visual portfolio.
           </p>
         </div>
       </section>

@@ -44,13 +44,13 @@ export default function Home() {
             data-ai-hint={heroImage.imageHint}
           />
         )}
-        <div className="absolute inset-0 bg-primary/20" />
+        <div className="absolute inset-0" />
         <div className="relative z-10 flex flex-col items-center px-4">
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-down">
             Building Your Vision
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            Apex Build delivers exceptional construction services with a commitment to quality, safety, and innovation.
+            seventysevenfloors delivers exceptional construction services with a commitment to quality, safety, and innovation.
           </p>
           <div className="flex gap-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Button asChild size="lg" className="font-bold">

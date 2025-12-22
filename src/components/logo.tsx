@@ -5,9 +5,9 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 200 50"
-      width="120"
+      width="180"
       height="30"
-      aria-label="Apex Build Logo"
+      aria-label="seventysevenfloors Logo"
       {...props}
     >
       <g>
@@ -18,9 +18,9 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         <text
           x="48"
           y="38"
-          className="font-headline text-[32px] font-bold"
+          className="font-headline text-[24px] font-bold tracking-tight"
         >
-          APEX BUILD
+          SEVENTYSEVEN
         </text>
       </g>
     </svg>
