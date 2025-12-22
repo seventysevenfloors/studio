@@ -54,8 +54,10 @@ export function Header() {
               className={cn(
                 'font-semibold text-base',
                 pathname === link.href
-                  ? 'text-primary'
-                  : isScrolled ? 'text-foreground/70 hover:text-foreground' : 'text-primary-foreground/80 hover:text-primary-foreground',
+                  ? (isScrolled ? 'text-accent-foreground bg-accent/80' : 'text-primary bg-primary-foreground/90')
+                  : isScrolled
+                  ? 'text-foreground/70 hover:text-foreground'
+                  : 'text-primary-foreground/80 hover:text-primary-foreground hover:bg-white/10',
                 isScrolled && pathname === link.href && 'bg-accent/50 text-accent-foreground'
               )}
             >
