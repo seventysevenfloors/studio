@@ -13,12 +13,12 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
       <g>
         <path
           d="M0 50 L20 10 L40 50 L30 50 L20 27 L10 50 Z"
-          className="fill-primary"
+          className="fill-accent"
         />
         <text
           x="48"
           y="38"
-          className="font-headline text-[32px] font-bold fill-foreground"
+          className="font-headline text-[32px] font-bold"
         >
           APEX BUILD
         </text>

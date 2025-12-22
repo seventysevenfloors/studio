@@ -52,7 +52,7 @@ export default function AboutPage() {
       <section className="bg-primary text-primary-foreground py-20 md:py-28 text-center animate-fade-in-down">
         <div className="container mx-auto px-4">
           <h1 className="font-headline text-4xl md:text-5xl font-bold">About Apex Build</h1>
-          <p className="mt-4 max-w-3xl mx-auto text-lg text-primary-foreground/80">
+          <p className="mt-4 max-w-3xl mx-auto text-lg text-primary-foreground/80" style={{ animationDelay: '0.2s' }}>
             Founded on the principles of quality, integrity, and innovation, we have been a trusted partner in construction for over two decades.
           </p>
         </div>
@@ -74,10 +74,10 @@ export default function AboutPage() {
             </div>
             <div className="animate-slide-in-from-right">
               <h2 className="font-headline text-3xl font-bold mb-4">Our Story</h2>
-              <p className="text-muted-foreground mb-4">
+              <p className="text-muted-foreground mb-4" style={{ animationDelay: '0.2s' }}>
                 Apex Build was founded with a simple yet powerful mission: to build structures that are not only aesthetically pleasing but also durable and functional. Over the years, we have grown from a small local firm into a leading construction company, renowned for our commitment to excellence and client satisfaction.
               </p>
-              <p className="text-muted-foreground">
+              <p className="text-muted-foreground" style={{ animationDelay: '0.4s' }}>
                 Our journey has been marked by a relentless pursuit of innovation, adopting the latest technologies and sustainable practices to deliver projects that stand the test of time. We believe that a successful project is born from a strong partnership with our clients, built on transparency, communication, and mutual respect.
               </p>
             </div>
@@ -89,7 +89,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto animate-fade-in-up">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Our Core Values</h2>
-            <p className="text-muted-foreground text-lg mb-12">
+            <p className="text-muted-foreground text-lg mb-12" style={{ animationDelay: '0.2s' }}>
               The principles that guide our work and define our company culture.
             </p>
           </div>
@@ -109,7 +109,7 @@ export default function AboutPage() {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-3xl mx-auto animate-fade-in-up">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Meet Our Team</h2>
-            <p className="text-muted-foreground text-lg mb-12">
+            <p className="text-muted-foreground text-lg mb-12" style={{ animationDelay: '0.2s' }}>
               The dedicated professionals behind our success.
             </p>
           </div>

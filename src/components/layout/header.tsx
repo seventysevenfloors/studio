@@ -44,20 +44,20 @@ export function Header() {
   const linkColorClasses = cn(
       isScrolled || !isHomePage
       ? 'text-foreground/70 hover:text-foreground'
-      : 'text-foreground/80 hover:text-foreground'
+      : 'text-primary-foreground/80 hover:text-primary-foreground'
   );
   
   const activeLinkColorClasses = cn(
       isScrolled || !isHomePage
       ? 'text-accent-foreground bg-accent/80'
-      : 'text-foreground bg-foreground/10'
+      : 'text-primary-foreground bg-white/10'
   );
 
   return (
     <header className={headerClasses}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className={cn(isScrolled || !isHomePage ? 'text-primary' : 'text-primary')} />
+          <Logo className={cn(isScrolled || !isHomePage ? 'text-primary' : 'text-primary-foreground')} />
         </Link>
 
         {/* Desktop Navigation */}
@@ -86,7 +86,7 @@ export function Header() {
         <div className="md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(isScrolled || !isHomePage ? 'text-foreground' : 'text-foreground')}>
+              <Button variant="ghost" size="icon" className={cn(isScrolled || !isHomePage ? 'text-foreground' : 'text-primary-foreground')}>
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Open menu</span>
               </Button>

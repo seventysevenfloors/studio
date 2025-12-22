@@ -49,7 +49,7 @@ export default function Home() {
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter mb-4 animate-fade-in-down">
             Building Your Vision
           </h1>
-          <p className="max-w-2xl text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up">
+          <p className="max-w-2xl text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
             Apex Build delivers exceptional construction services with a commitment to quality, safety, and innovation.
           </p>
           <div className="flex gap-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
@@ -120,7 +120,7 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <div className="text-center mt-12 animate-fade-in-up">
+          <div className="text-center mt-12 animate-fade-in-up" style={{ animationDelay: '0.45s' }}>
             <Button asChild size="lg">
               <Link href="/projects">View All Projects</Link>
             </Button>
@@ -131,10 +131,10 @@ export default function Home() {
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
         <div className="container mx-auto px-4 text-center animate-fade-in">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Ready to Build Your Future?</h2>
-            <p className="max-w-2xl mx-auto text-lg text-primary-foreground/90 mb-8">
+            <p className="max-w-2xl mx-auto text-lg text-primary-foreground/90 mb-8" style={{ animationDelay: '0.2s' }}>
                 Let's discuss your project and how we can bring your vision to reality.
             </p>
-            <Button asChild size="lg" variant="secondary">
+            <Button asChild size="lg" variant="secondary" style={{ animationDelay: '0.4s' }}>
                 <Link href="/contact">Contact Us Today</Link>
             </Button>
         </div>
