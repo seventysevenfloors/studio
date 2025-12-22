@@ -51,15 +51,16 @@ export function Header() {
   const linkColorClasses = cn(
       'font-semibold text-base transition-colors duration-200',
       isScrolled || !isHomePage
-      ? 'text-foreground/70 hover:text-accent-foreground hover:bg-accent/20' // Scrolled or not on home
-      : 'text-primary-foreground/80 hover:text-primary-foreground hover:bg-white/20' // Top of homepage
+      ? 'text-foreground/70 hover:text-accent-foreground hover:underline' // Scrolled or not on home
+      : 'text-primary-foreground/80 hover:text-primary-foreground hover:underline' // Top of homepage
   );
   
   // Dynamic classes for the currently active navigation link
   const activeLinkColorClasses = cn(
+      'bg-transparent',
       isScrolled || !isHomePage
-      ? 'text-accent-foreground bg-accent/20 hover:bg-accent/20' // Scrolled or not on home
-      : 'text-primary-foreground bg-white/20 hover:bg-white/20' // Top of homepage
+      ? 'text-accent-foreground underline' // Scrolled or not on home
+      : 'text-primary-foreground underline' // Top of homepage
   );
 
   return (
@@ -78,6 +79,7 @@ export function Header() {
               asChild
               variant="ghost"
               className={cn(
+                'hover:bg-transparent',
                 linkColorClasses,
                 // Apply active or default link styles
                 pathname === link.href && activeLinkColorClasses,
