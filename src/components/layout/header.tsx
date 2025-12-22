@@ -40,7 +40,7 @@ export function Header() {
 
   // Base classes for the header
   const headerClasses = cn(
-    'sticky top-0 z-50 w-full transition-all duration-300',
+    'fixed top-0 z-50 w-full transition-all duration-300',
     // Apply solid background and shadow if scrolled or not on the homepage
     isScrolled || !isHomePage
       ? 'bg-card shadow-md'
@@ -87,7 +87,7 @@ export function Header() {
           ))}
         </nav>
         <div className='hidden md:block'>
-          <Button asChild>
+          <Button asChild className={cn( isHomePage && !isScrolled && 'bg-white text-primary hover:bg-white/90')}>
             <Link href="/contact">Get a Quote</Link>
           </Button>
         </div>
