@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Building2, HardHat, Home as HomeIcon } from 'lucide-react';
+import { ArrowRight, Building2, HardHat, HomeIcon } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -52,7 +52,7 @@ export default function Home() {
           <p className="max-w-2xl text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up">
             Apex Build delivers exceptional construction services with a commitment to quality, safety, and innovation.
           </p>
-          <div className="flex gap-4">
+          <div className="flex gap-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Button asChild size="lg" className="font-bold">
               <Link href="/projects">Our Projects</Link>
             </Button>
@@ -65,7 +65,7 @@ export default function Home() {
 
       <section id="services" className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto animate-fade-in-up">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
             <p className="text-muted-foreground text-lg mb-12">
               We provide a comprehensive range of construction services to meet the diverse needs of our clients.
@@ -73,7 +73,7 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {services.map((service, index) => (
-              <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300">
+              <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 0.15}s` }}>
                 <CardHeader className="flex flex-col items-center gap-4">
                   <div className="bg-primary text-primary-foreground p-4 rounded-full group-hover:bg-accent transition-colors duration-300">
                     {service.icon}
@@ -94,15 +94,15 @@ export default function Home() {
 
       <section id="featured-projects" className="py-16 md:py-24 bg-card">
         <div className="container mx-auto px-4">
-          <div className="text-center max-w-3xl mx-auto">
+          <div className="text-center max-w-3xl mx-auto animate-fade-in-up">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
             <p className="text-muted-foreground text-lg mb-12">
               A glimpse into our commitment to excellence and quality craftsmanship.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projectImages.map((project) => (
-              <Link href="/projects" key={project.id} className="group block overflow-hidden rounded-lg shadow-lg">
+            {projectImages.map((project, i) => (
+              <Link href="/projects" key={project.id} className="group block overflow-hidden rounded-lg shadow-lg animate-fade-in-up" style={{ animationDelay: `${i * 0.15}s` }}>
                 <div className="relative h-64">
                   <Image
                     src={project.imageUrl}
@@ -120,7 +120,7 @@ export default function Home() {
               </Link>
             ))}
           </div>
-          <div className="text-center mt-12">
+          <div className="text-center mt-12 animate-fade-in-up">
             <Button asChild size="lg">
               <Link href="/projects">View All Projects</Link>
             </Button>
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
       
       <section className="bg-primary text-primary-foreground py-16 md:py-24">
-        <div className="container mx-auto px-4 text-center">
+        <div className="container mx-auto px-4 text-center animate-fade-in">
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-4">Ready to Build Your Future?</h2>
             <p className="max-w-2xl mx-auto text-lg text-primary-foreground/90 mb-8">
                 Let's discuss your project and how we can bring your vision to reality.

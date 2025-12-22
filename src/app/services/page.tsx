@@ -49,7 +49,7 @@ const servicesData = [
 export default function ServicesPage() {
   return (
     <>
-      <section className="bg-primary text-primary-foreground py-20 md:py-28 text-center">
+      <section className="bg-primary text-primary-foreground py-20 md:py-28 text-center animate-fade-in-down">
         <div className="container mx-auto px-4">
           <h1 className="font-headline text-4xl md:text-5xl font-bold">Our Expertise</h1>
           <p className="mt-4 max-w-2xl mx-auto text-lg text-primary-foreground/80">
@@ -63,10 +63,11 @@ export default function ServicesPage() {
           <div className="space-y-16">
             {servicesData.map((service, index) => {
               const image = PlaceHolderImages.find((img) => img.id === service.imageId);
+              const isEven = index % 2 === 0;
               return (
                 <Card key={service.id} className="overflow-hidden shadow-lg border-none">
                   <div className={`grid grid-cols-1 lg:grid-cols-2 gap-0 items-center`}>
-                    <div className={`relative h-64 md:h-96 ${index % 2 === 1 ? 'lg:order-last' : ''}`}>
+                    <div className={`relative h-64 md:h-96 ${!isEven ? 'lg:order-last' : ''} ${isEven ? 'animate-slide-in-from-left' : 'animate-slide-in-from-right'}`}>
                       {image && (
                         <Image
                           src={image.imageUrl}
@@ -78,7 +79,7 @@ export default function ServicesPage() {
                         />
                       )}
                     </div>
-                    <div className="p-8 md:p-12">
+                    <div className={`p-8 md:p-12 ${!isEven ? 'animate-slide-in-from-left' : 'animate-slide-in-from-right'}`}>
                       <h2 className="font-headline text-3xl font-bold mb-4">{service.title}</h2>
                       <p className="text-muted-foreground mb-6">{service.description}</p>
                       <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3">
