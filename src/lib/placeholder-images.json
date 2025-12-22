@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero",
-      "description": "A dramatic low-angle shot of modern skyscrapers against the sky.",
-      "imageUrl": "https://images.unsplash.com/photo-1542317852-5240c49333b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxza3lzY3JhcGVyJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc2NjU0MzYyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "skyscraper architecture"
+      "description": "A dramatic low-angle shot of modern architecture.",
+      "imageUrl": "https://images.unsplash.com/photo-1519994292812-7b85e8760b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb2Rlcm4lMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY2NTQyODU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "modern architecture"
     },
     {
       "id": "residential-service",
@@ -21,7 +21,7 @@
     {
       "id": "industrial-service",
       "description": "A large industrial factory or warehouse.",
-      "imageUrl": "https://images.unsplash.com/photo-1644409287870-0eb0d03e33fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmR1c3RyaWFsJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjYzMjkzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1644409287870-0eb0d03e33fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxpbmR1c3RyaWFsJTIwZmFjdG9yeXxlbnwwfHx8fDE3NjYzMjkzNjV8MA&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "industrial factory"
     },
     {
@@ -39,7 +39,7 @@
     {
       "id": "team-member-2",
       "description": "Portrait of a female project manager.",
-      "imageUrl": "https://images.unsplash.com/photo-1687254062905-8443494a4b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBtYW5hZ2VyfGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1687254062905-8443494a4b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBtYW5hZ2VyfGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "female manager"
     },
     {
@@ -51,97 +51,97 @@
     {
       "id": "project-1",
       "description": "A completed multi-story residential building.",
-      "imageUrl": "https://images.unsplash.com/photo-1595330449916-e7c3e1962bd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjYzMjk2NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1595330449916-e7c3e1962bd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjYzMjk2NDF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "apartment building"
     },
     {
       "id": "project-2",
       "description": "Interior of a modern office space.",
-      "imageUrl": "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjYyODM2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjYyODM2NTl8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "office interior"
     },
     {
       "id": "project-3",
       "description": "A large warehouse under construction.",
-      "imageUrl": "https://images.unsplash.com/photo-1716915372367-c170ee1e7d24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXJlaG91c2UlMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1716915372367-c170ee1e7d24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXJlaG91c2UlMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "warehouse construction"
     },
     {
       "id": "project-4",
       "description": "A luxurious custom home exterior.",
-      "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBob21lfGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBob21lfGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "luxury home"
     },
     {
       "id": "project-5",
       "description": "A modern retail storefront.",
-      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmV0YWlsJTIwc3RvcmV8ZW58MHx8fHwxNzY2MzIxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmV0YWlsJTIwc3RvcmV8ZW58MHx8fHwxNzY2MzIxMDQ0fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "retail store"
     },
     {
       "id": "project-6",
       "description": "Structural steel frame of a new building.",
-      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "steel frame"
     },
     {
       "id": "gallery-1",
       "description": "Architectural detail of a facade.",
-      "imageUrl": "https://images.unsplash.com/photo-1494177242659-c726060f48dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidWlsZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3NjYzMTIyNDN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1494177242659-c726060f48dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxidWlsZGluZyUyMGZhY2FkZXxlbnwwfHx8fDE3NjYzMTIyNDN8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "building facade"
     },
     {
       "id": "gallery-2",
       "description": "Crane at a construction site.",
-      "imageUrl": "https://images.unsplash.com/photo-1599707254554-027aeb4deacd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBjcmFuZXxlbnwwfHx8fDE3NjYzMjAxMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1599707254554-027aeb4deacd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb25zdHJ1Y3Rpb24lMjBjcmFuZXxlbnwwfHx8fDE3NjYzMjAxMTB8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "construction crane"
     },
     {
       "id": "gallery-3",
       "description": "Interior shot of a newly built kitchen.",
-      "imageUrl": "https://images.unsplash.com/photo-1610177534644-34d881503b83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2NjM2Nzk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1610177534644-34d881503b83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBraXRjaGVufGVufDB8fHx8MTc2NjM2Nzk5MXww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "modern kitchen"
     },
     {
       "id": "gallery-4",
       "description": "Workers pouring concrete.",
-      "imageUrl": "https://images.unsplash.com/photo-1574757987642-5755f0839101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3VyaW5nJTIwY29uY3JldGV8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1574757987642-5755f0839101?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwb3VyaW5nJTIwY29uY3JldGV8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "pouring concrete"
     },
     {
       "id": "gallery-5",
       "description": "Aerial view of a completed residential complex.",
-      "imageUrl": "https://images.unsplash.com/photo-1634161377437-f62ae060e21a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXNpZGVudGlhbCUyMGNvbXBsZXh8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1634161377437-f62ae060e21a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxyZXNpZGVudGlhbCUyMGNvbXBsZXh8ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "residential complex"
     },
     {
       "id": "gallery-6",
       "description": "Close-up of building materials.",
-      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWlsZGluZyUyMG1hdGVyaWFsc3xlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWlsZGluZyUyMG1hdGVyaWFsc3xlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "building materials"
     },
     {
       "id": "gallery-7",
       "description": "Lobby of a corporate building.",
-      "imageUrl": "https://images.unsplash.com/photo-1686100510138-69aca4fc7684?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3Jwb3JhdGUlMjBsb2JieXxlbnwwfHx8fDE3NjYyODk5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1686100510138-69aca4fc7684?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjb3Jwb3JhdGUlMjBsb2JieXxlbnwwfHx8fDE3NjYyODk5NzF8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "corporate lobby"
     },
     {
       "id": "gallery-8",
       "description": "Skyscraper under construction against a blue sky.",
-      "imageUrl": "https://images.unsplash.com/photo-1683822119828-8dd8c90a63eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxza3lzY3JhcGVyJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc2NjM2NjkyOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1683822119828-8dd8c90a63eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxza3lzY3JhcGVyJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc2NjM2NjkyOHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "skyscraper construction"
     },
     {
       "id": "gallery-9",
       "description": "A beautifully landscaped exterior of a building.",
-      "imageUrl": "https://images.unsplash.com/photo-1616386573884-22531fd226e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidWlsZGluZyUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1616386573884-22531fd226e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidWlsZGluZyUyMGxhbmRzY2FwZXxlbnwwfHx8fDE3NjYzODI3NDZ8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "building landscape"
     },
     {
       "id": "contact-map",
       "description": "A map showing a pin on a location.",
-      "imageUrl": "https://images.unsplash.com/photo-1730317195705-8a265a59ed1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2NjMwMzg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1730317195705-8a265a59ed1b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2NjMwMzg3Nnww&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "city map"
     }
   ]
