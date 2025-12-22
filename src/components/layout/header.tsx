@@ -1,3 +1,4 @@
+
 'use client';
 
 import Link from 'next/link';
@@ -26,37 +27,45 @@ export function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
+      // Set scrolled state if user scrolls down more than 10 pixels
       setIsScrolled(window.scrollY > 10);
     };
+    // Add scroll event listener
     window.addEventListener('scroll', handleScroll);
+    // Clean up event listener on component unmount
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const isHomePage = pathname === '/';
 
+  // Base classes for the header
   const headerClasses = cn(
     'sticky top-0 z-50 w-full transition-all duration-300',
+    // Apply solid background and shadow if scrolled or not on the homepage
     isScrolled || !isHomePage
       ? 'bg-card shadow-md'
       : 'bg-transparent'
   );
   
+  // Dynamic classes for navigation link colors
   const linkColorClasses = cn(
       isScrolled || !isHomePage
-      ? 'text-foreground/70 hover:text-foreground'
-      : 'text-primary-foreground/80 hover:text-primary-foreground'
+      ? 'text-foreground/70 hover:text-foreground' // Scrolled or not on home
+      : 'text-primary-foreground/80 hover:text-primary-foreground' // Top of homepage
   );
   
+  // Dynamic classes for the currently active navigation link
   const activeLinkColorClasses = cn(
       isScrolled || !isHomePage
-      ? 'text-accent-foreground bg-accent/80'
-      : 'text-primary-foreground bg-white/10'
+      ? 'text-accent-foreground bg-accent/10' // Scrolled or not on home
+      : 'text-primary-foreground bg-white/10' // Top of homepage
   );
 
   return (
     <header className={headerClasses}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
+          {/* Logo color changes based on scroll/page */}
           <Logo className={cn(isScrolled || !isHomePage ? 'text-primary' : 'text-primary-foreground')} />
         </Link>
 
@@ -69,6 +78,7 @@ export function Header() {
               variant="ghost"
               className={cn(
                 'font-semibold text-base',
+                // Apply active or default link styles
                 pathname === link.href ? activeLinkColorClasses : linkColorClasses,
               )}
             >
@@ -82,11 +92,11 @@ export function Header() {
           </Button>
         </div>
 
-        {/* Mobile Navigation */}
+        {/* Mobile Navigation (Hamburger Menu) */}
         <div className="md:hidden">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(isScrolled || !isHomePage ? 'text-foreground' : 'text-primary-foreground')}>
+              <Button variant="ghost" size="icon" className={cn('hover:bg-white/10', linkColorClasses)}>
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Open menu</span>
               </Button>
