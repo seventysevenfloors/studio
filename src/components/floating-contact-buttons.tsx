@@ -27,7 +27,7 @@ export function FloatingContactButtons() {
         aria-label="Chat on WhatsApp"
       >
         <Link
-          href="https://wa.me/11234567890"
+          href="https://wa.me/918367447870"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -40,7 +40,7 @@ export function FloatingContactButtons() {
         className="rounded-full w-14 h-14 bg-primary hover:bg-primary/90 shadow-lg"
         aria-label="Call Us"
       >
-        <Link href="tel:+11234567890">
+        <Link href="tel:+918367447870">
           <Phone className="h-6 w-6" />
         </Link>
       </Button>

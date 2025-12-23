@@ -20,8 +20,8 @@ const contactDetails = [
   {
     icon: <Phone className="h-8 w-8 text-primary" />,
     title: 'Call Us',
-    text: '(123) 456-7890',
-    href: 'tel:+1234567890',
+    text: '+91 8367447870',
+    href: 'tel:+918367447870',
   },
 ];
 
