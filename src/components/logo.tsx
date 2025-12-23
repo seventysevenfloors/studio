@@ -18,9 +18,9 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         <text
           x="48"
           y="38"
-          className="font-headline text-[24px] font-bold tracking-tight"
+          className="font-headline text-[22px] font-bold tracking-tight"
         >
-          SEVENTYSEVEN
+          seventysevenfloors
         </text>
       </g>
     </svg>
