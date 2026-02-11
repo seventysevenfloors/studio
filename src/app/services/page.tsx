@@ -34,7 +34,7 @@ const servicesData = [
   {
     id: 'industrial',
     title: 'Industrial Solutions',
-    description: 'Apex Build has extensive experience in industrial construction, delivering robust and efficient facilities. We prioritize safety, logistics, and operational excellence in every project.',
+    description: 'Ar Constructions and Real Estate has extensive experience in industrial construction, delivering robust and efficient facilities. We prioritize safety, logistics, and operational excellence in every project.',
     features: [
       'Warehousing & Distribution Centers',
       'Manufacturing Plants',

@@ -65,7 +65,7 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 shrink-0" />
-                <a href="mailto:contact@seventysevenfloors.com" className="hover:text-primary-foreground">contact@seventysevenfloors.com</a>
+                <a href="mailto:contact@ar-construct.com" className="hover:text-primary-foreground">contact@ar-construct.com</a>
               </li>
             </ul>
           </div>
@@ -90,7 +90,7 @@ export function Footer() {
         </div>
         
         <div className="mt-8 border-t border-primary-foreground/20 pt-8 text-center text-primary-foreground/60">
-          <p>&copy; {new Date().getFullYear()} seventysevenfloors. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Ar Constructions and Real Estate. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

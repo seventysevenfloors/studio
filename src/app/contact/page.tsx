@@ -14,8 +14,8 @@ const contactDetails = [
   {
     icon: <Mail className="h-8 w-8 text-primary" />,
     title: 'Email Us',
-    text: 'contact@seventysevenfloors.com',
-    href: 'mailto:contact@seventysevenfloors.com',
+    text: 'contact@ar-construct.com',
+    href: 'mailto:contact@ar-construct.com',
   },
   {
     icon: <Phone className="h-8 w-8 text-primary" />,

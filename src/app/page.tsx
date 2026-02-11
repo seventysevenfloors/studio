@@ -50,7 +50,7 @@ export default function Home() {
             Building Your Vision
           </h1>
           <p className="max-w-2xl text-lg md:text-xl text-primary-foreground/90 mb-8 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            seventysevenfloors delivers exceptional construction services with a commitment to quality, safety, and innovation.
+            Ar Constructions and Real Estate delivers exceptional construction services with a commitment to quality, safety, and innovation.
           </p>
           <div className="flex gap-4 animate-fade-in-up" style={{animationDelay: '0.4s'}}>
             <Button asChild size="lg" className="font-bold">
@@ -142,5 +142,3 @@ export default function Home() {
     </div>
   );
 }
-
-    

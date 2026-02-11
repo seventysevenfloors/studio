@@ -4,10 +4,10 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 200 50"
-      width="180"
+      viewBox="0 0 230 50"
+      width="190"
       height="30"
-      aria-label="seventysevenfloors Logo"
+      aria-label="Ar Constructions Logo"
       {...props}
     >
       <g>
@@ -20,7 +20,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
           y="38"
           className="font-headline text-[22px] font-bold tracking-tight"
         >
-          seventysevenfloors
+          Ar Constructions
         </text>
       </g>
     </svg>
