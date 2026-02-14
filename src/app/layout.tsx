@@ -6,7 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { FloatingContactButtons } from '@/components/floating-contact-buttons';
 
 export const metadata: Metadata = {
-  title: 'Ar Constructions and Real Estate | Construction & Development',
+  title: 'AR Constructions and Real Estate | Construction & Development',
   description: 'Building the future, one project at a time. Your trusted partner in residential, commercial, and industrial construction.',
   keywords: ['construction', 'real estate', 'building', 'residential', 'commercial', 'industrial', 'Ar Constructions']
 };

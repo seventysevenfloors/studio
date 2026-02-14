@@ -7,7 +7,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
       viewBox="0 0 230 50"
       width="190"
       height="30"
-      aria-label="Ar Constructions Logo"
+      aria-label="AR Constructions Logo"
       {...props}
     >
       <g>
@@ -20,7 +20,7 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
           y="38"
           className="font-headline text-[22px] font-bold tracking-tight"
         >
-          Ar Constructions
+          AR Constructions
         </text>
       </g>
     </svg>
