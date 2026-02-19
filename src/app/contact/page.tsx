@@ -14,14 +14,14 @@ const contactDetails = [
   {
     icon: <Mail className="h-8 w-8 text-primary" />,
     title: 'Email Us',
-    text: 'contact@ar-construct.com',
-    href: 'mailto:contact@ar-construct.com',
+    text: 'arconstructionsandrealestates@gmail.com',
+    href: 'mailto:arconstructionsandrealestates@gmail.com',
   },
   {
     icon: <Phone className="h-8 w-8 text-primary" />,
     title: 'Call Us',
-    text: '+91 8367447870',
-    href: 'tel:+918367447870',
+    text: '+91 9666909414',
+    href: 'tel:+919666909414',
   },
 ];
 
