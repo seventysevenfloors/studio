@@ -37,8 +37,7 @@ export function Header() {
     <header className={headerClasses}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
-          {/* Logo color is always primary */}
-          <Logo className="text-primary" />
+          <Logo />
         </Link>
 
         {/* Desktop Navigation */}
