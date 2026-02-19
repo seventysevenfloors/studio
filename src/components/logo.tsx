@@ -3,7 +3,7 @@ import Image from 'next/image';
 export function Logo() {
   return (
     <Image
-      src="/imageByMe/logo.jpg"
+      src="/logo.jpg"
       alt="Ar Constructions and Real Estate Logo"
       width={190}
       height={42}
