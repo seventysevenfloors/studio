@@ -23,8 +23,8 @@ export default function GalleryPage() {
                 <Image
                   src={image.imageUrl}
                   alt={image.description}
-                  width={600}
-                  height={400}
+                  width={image.width || 600}
+                  height={image.height || 400}
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
                   data-ai-hint={image.imageHint}
                 />
