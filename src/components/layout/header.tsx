@@ -1,4 +1,3 @@
-
 'use client';
 
 import Link from 'next/link';
@@ -25,7 +24,7 @@ export function Header() {
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
   // The header is now always solid
-  const headerClasses = 'fixed top-0 z-50 w-full bg-background shadow-md';
+  const headerClasses = 'fixed top-0 z-50 w-full bg-card shadow-md';
   
   // Navigation link colors are always for a solid background
   const linkColorClasses = 'font-semibold text-base transition-colors duration-200 text-foreground/70 hover:text-foreground';
@@ -35,7 +34,7 @@ export function Header() {
 
   return (
     <header className={headerClasses}>
-      <div className="container mx-auto flex h-24 items-center px-4">
+      <div className="container mx-auto flex h-28 items-center px-4">
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center">
             <Logo />
@@ -74,7 +73,7 @@ export function Header() {
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
-            <SheetContent side="left" className="w-[300px] bg-background p-0">
+            <SheetContent side="left" className="w-[300px] bg-card p-0">
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b p-4">
                   <Link href="/" onClick={() => setIsSheetOpen(false)}>
