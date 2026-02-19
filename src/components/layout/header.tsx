@@ -36,7 +36,7 @@ export function Header() {
   return (
     <header className={headerClasses}>
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center">
           <Logo />
         </Link>
 
@@ -50,7 +50,6 @@ export function Header() {
               className={cn(
                 'hover:bg-transparent animated-underline',
                 linkColorClasses,
-                pathname === link.href ? 'after:!w-full' : '',
                 pathname === link.href ? activeLinkColorClasses : '',
               )}
             >
