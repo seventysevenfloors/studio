@@ -81,7 +81,7 @@
     {
       "id": "project-6",
       "description": "Structural steel frame of a new building.",
-      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "steel frame"
     },
     {
@@ -177,6 +177,70 @@
       "description": "A showcase from our gallery of projects.",
       "imageUrl": "/AR_GALLERY/12.jpeg",
       "imageHint": "house exterior",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-13",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/13.jpeg",
+      "imageHint": "urban construction",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-14",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/14.jpeg",
+      "imageHint": "modern interior",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-15",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/15.jpeg",
+      "imageHint": "building facade",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-16",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/16.jpeg",
+      "imageHint": "construction detail",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-17",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/17.jpeg",
+      "imageHint": "residential complex",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-18",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/18.jpeg",
+      "imageHint": "commercial space",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-19",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/19.jpeg",
+      "imageHint": "architectural design",
+      "width": 800,
+      "height": 600
+    },
+    {
+      "id": "gallery-20",
+      "description": "A showcase from our gallery of projects.",
+      "imageUrl": "/AR_GALLERY/20.jpeg",
+      "imageHint": "finished project",
       "width": 800,
       "height": 600
     },
