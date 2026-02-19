@@ -46,7 +46,7 @@ export function Header() {
   const isSolid = !isHomePage || isScrolled;
 
   const headerClasses = cn(
-    'fixed top-0 z-50 w-full transition-all duration-300 h-28',
+    'fixed top-0 z-50 w-full transition-all duration-300 h-24',
     isSolid ? 'bg-card shadow-md' : 'bg-transparent'
   );
   
