@@ -57,7 +57,7 @@ export function Footer() {
             <ul className="space-y-3 text-primary-foreground/80">
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mt-1 mr-3 shrink-0" />
-                <span>123 Construction Ave, Builder City, 12345</span>
+                <span>4th floor, chandra vilas complex, opposite Chandana shopping mall, CTM Road, Madanapalli.</span>
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-3 shrink-0" />

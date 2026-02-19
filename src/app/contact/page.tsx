@@ -9,7 +9,7 @@ const contactDetails = [
   {
     icon: <MapPin className="h-8 w-8 text-primary" />,
     title: 'Our Office',
-    text: '123 Construction Ave, Builder City, 12345',
+    text: '4th floor, chandra vilas complex, opposite Chandana shopping mall, CTM Road, Madanapalli.',
   },
   {
     icon: <Mail className="h-8 w-8 text-primary" />,
