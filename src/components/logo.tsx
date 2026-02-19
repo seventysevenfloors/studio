@@ -14,15 +14,15 @@ export function Logo(props: SVGProps<SVGSVGElement>) {
         {/* Main part: buildings and AR */}
         <g>
           {/* Buildings */}
-          <path d="M0 70 L0 50 L40 50 L40 70 Z" />
-          <path d="M45 70 L45 25 L95 25 L95 70 Z" />
-          <path d="M100 70 L100 10 L150 10 L150 70 Z" />
+          <path d="M0 70 V55 H30 V70 Z" />
+          <path d="M35 70 V20 L40 15 H70 L75 20 V70 Z" />
+          <path d="M80 70 V40 H110 V70 Z" />
+          
           {/* "AR" Text */}
           <text
-            x="175"
+            x="130"
             y="62"
-            className="font-headline"
-            style={{ fontSize: '60px', fontWeight: 'bold' }}
+            style={{ fontSize: '60px', fontFamily: 'Georgia, serif' }}
           >
             AR
           </text>
