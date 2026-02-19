@@ -7,7 +7,7 @@ export function Logo() {
       alt="Ar Constructions and Real Estate Logo"
       width="190"
       height="42"
-      className="object-contain dark:invert mix-blend-multiply dark:mix-blend-screen"
+      className="object-contain dark:invert"
       priority
     />
   );
