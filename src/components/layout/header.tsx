@@ -35,13 +35,13 @@ export function Header() {
 
   return (
     <header className={headerClasses}>
-      <div className="container mx-auto flex h-20 items-center justify-between px-4">
+      <div className="container mx-auto flex h-20 items-center px-4">
         <Link href="/" className="flex items-center">
           <Logo />
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-2">
+        <nav className="hidden md:flex items-center gap-2 ml-8">
           {navLinks.map((link) => (
             <Button
               key={link.href}
@@ -57,14 +57,14 @@ export function Header() {
             </Button>
           ))}
         </nav>
-        <div className='hidden md:block'>
+        <div className='hidden md:block ml-auto'>
           <Button asChild>
             <Link href="/contact">Get a Quote</Link>
           </Button>
         </div>
 
         {/* Mobile Navigation (Hamburger Menu) */}
-        <div className="md:hidden">
+        <div className="md:hidden ml-auto">
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" size="icon" className="text-foreground/70">
