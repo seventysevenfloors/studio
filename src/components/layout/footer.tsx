@@ -1,21 +1,8 @@
 import Link from 'next/link';
-import { Facebook, Twitter, Linkedin, Instagram, MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 import { Logo } from '../logo';
 import { Button } from '../ui/button';
-
-const navLinks = [
-  { href: '/about', label: 'About Us' },
-  { href: '/services', label: 'Services' },
-  { href: '/projects', label: 'Projects' },
-  { href: '/contact', label: 'Contact' },
-];
-
-const socialLinks = [
-  { icon: <Facebook className="h-5 w-5" />, href: '#', label: 'Facebook' },
-  { icon: <Twitter className="h-5 w-5" />, href: '#', label: 'Twitter' },
-  { icon: <Linkedin className="h-5 w-5" />, href: '#', label: 'LinkedIn' },
-  { icon: <Instagram className="h-5 w-5" />, href: '#', label: 'Instagram' },
-];
+import { footerNavLinks, socialLinks } from '@/lib/data';
 
 export function Footer() {
   return (
@@ -29,20 +16,23 @@ export function Footer() {
               Building the future, one project at a time. Your trusted partner in construction.
             </p>
             <div className="flex space-x-4">
-              {socialLinks.map((social) => (
-                <Button key={social.label} asChild variant="ghost" size="icon" className="text-primary-foreground/80 hover:bg-primary-foreground/10 hover:text-primary-foreground">
-                  <a href={social.href} aria-label={social.label}>
-                    {social.icon}
-                  </a>
-                </Button>
-              ))}
+              {socialLinks.map((social) => {
+                const Icon = social.icon;
+                return (
+                  <Button key={social.label} asChild variant="ghost" size="icon" className="text-primary-foreground/80 hover:bg-primary-foreground/10 hover:text-primary-foreground">
+                    <a href={social.href} aria-label={social.label}>
+                      <Icon className="h-5 w-5" />
+                    </a>
+                  </Button>
+                );
+              })}
             </div>
           </div>
 
           <div>
             <h3 className="font-headline text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              {navLinks.map((link) => (
+              {footerNavLinks.map((link) => (
                 <li key={link.href}>
                   <Link href={link.href} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">
                     {link.label}

@@ -3,19 +3,10 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { projectCategories } from '@/lib/data';
 
-const projects = PlaceHolderImages.filter(p => p.id.startsWith('project-')).map((p, i) => {
-    let category = 'Residential';
-    if (i % 3 === 1) category = 'Commercial';
-    if (i % 3 === 2) category = 'Industrial';
-    return {
-        ...p,
-        title: `${category} Project #${i + 1}`,
-        category,
-    };
-});
-
-const categories = ['All', 'Residential', 'Commercial', 'Industrial'];
+const projects = PlaceHolderImages.filter(p => p.id.startsWith('project-'));
+const categories = projectCategories;
 
 export default function ProjectsPage() {
   return (
@@ -54,11 +45,9 @@ export default function ProjectsPage() {
                                             />
                                         </div>
                                         <div className="p-6">
-                                            <Badge variant={
-                                                project.category === 'Residential' ? 'default' :
-                                                project.category === 'Commercial' ? 'secondary' :
-                                                'destructive'
-                                            } className="mb-2 bg-accent text-accent-foreground">{project.category}</Badge>
+                                            {project.category && (
+                                                <Badge className="mb-2 bg-accent text-accent-foreground">{project.category}</Badge>
+                                            )}
                                             <h3 className="font-headline text-xl font-bold mb-2">{project.title}</h3>
                                             <p className="text-muted-foreground text-sm">A showcase of modern design and robust construction techniques.</p>
                                         </div>

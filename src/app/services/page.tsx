@@ -1,50 +1,9 @@
 import Image from 'next/image';
 import { Check } from 'lucide-react';
 
-import { Card, CardContent, CardHeader } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-
-const servicesData = [
-  {
-    id: 'residential',
-    title: 'Residential Construction',
-    description: 'We specialize in creating beautiful, high-quality homes that stand the test of time. From custom new builds to large-scale renovations, our team ensures every detail is perfect.',
-    features: [
-      'Custom Home Building',
-      'Luxury Residences',
-      'Multi-Family Housing',
-      'Renovations & Additions',
-      'Sustainable Building Practices',
-    ],
-    imageId: 'residential-service',
-  },
-  {
-    id: 'commercial',
-    title: 'Commercial Projects',
-    description: 'Our commercial construction services are designed to create functional, modern, and inspiring spaces for businesses to thrive. We manage projects of all sizes, from retail fit-outs to new office complexes.',
-    features: [
-      'Office Buildings',
-      'Retail & Shopping Centers',
-      'Hospitality & Hotels',
-      'Healthcare Facilities',
-      'Tenant Improvements',
-    ],
-    imageId: 'commercial-service',
-  },
-  {
-    id: 'industrial',
-    title: 'Industrial Solutions',
-    description: 'Ar Constructions and Real Estate has extensive experience in industrial construction, delivering robust and efficient facilities. We prioritize safety, logistics, and operational excellence in every project.',
-    features: [
-      'Warehousing & Distribution Centers',
-      'Manufacturing Plants',
-      'Cold Storage Facilities',
-      'Data Centers',
-      'Industrial Parks',
-    ],
-    imageId: 'industrial-service',
-  },
-];
+import { servicesData } from '@/lib/data';
 
 export default function ServicesPage() {
   return (

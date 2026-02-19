@@ -9,15 +9,7 @@ import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { cn } from '@/lib/utils';
 import { Logo } from '../logo';
-
-const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/services', label: 'Services' },
-  { href: '/about', label: 'About' },
-  { href: '/projects', label: 'Projects' },
-  { href: '/gallery', label: 'Gallery' },
-  { href: '/contact', label: 'Contact' },
-];
+import { navLinks } from '@/lib/data';
 
 export function Header() {
   const pathname = usePathname();
@@ -54,19 +46,19 @@ export function Header() {
     'font-semibold text-base transition-colors duration-200',
     isSolid
       ? 'text-foreground/70 hover:text-foreground'
-      : 'text-primary-foreground/80 hover:text-primary-foreground'
+      : 'text-primary-foreground/80 hover:text-primary-foreground dark:text-foreground'
   );
   
   const activeLinkColorClasses = isSolid ? 'text-primary' : 'text-white';
   
-  const hamburgerColor = isSolid ? 'text-foreground/70' : 'text-primary-foreground/80';
+  const hamburgerColor = isSolid ? 'text-foreground/70' : 'text-primary-foreground/80 dark:text-foreground';
 
   return (
     <header className={headerClasses}>
       <div className="container mx-auto flex h-full items-center px-4">
         <div className="flex items-center gap-8">
           <Link href="/" className="flex items-center">
-            <Logo />
+            <Logo className={!isSolid ? 'invert dark:!invert-0' : ''} />
           </Link>
 
           {/* Desktop Navigation */}

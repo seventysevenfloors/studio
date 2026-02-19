@@ -52,37 +52,49 @@
       "id": "project-1",
       "description": "A completed multi-story residential building.",
       "imageUrl": "https://images.unsplash.com/photo-1595330449916-e7c3e1962bd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcGFydG1lbnQlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjYzMjk2NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "apartment building"
+      "imageHint": "apartment building",
+      "title": "Modern Apartment Complex",
+      "category": "Residential"
     },
     {
       "id": "project-2",
       "description": "Interior of a modern office space.",
       "imageUrl": "https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxvZmZpY2UlMjBpbnRlcmlvcnxlbnwwfHx8fDE3NjYyODM2NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "office interior"
+      "imageHint": "office interior",
+      "title": "Corporate Office Interior",
+      "category": "Commercial"
     },
     {
       "id": "project-3",
       "description": "A large warehouse under construction.",
       "imageUrl": "https://images.unsplash.com/photo-1716915372367-c170ee1e7d24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3YXJlaG91c2UlMjBjb25zdHJ1Y3Rpb258ZW58MHx8fHwxNzY2MzgyNzQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "warehouse construction"
+      "imageHint": "warehouse construction",
+      "title": "Logistics Warehouse",
+      "category": "Industrial"
     },
     {
       "id": "project-4",
       "description": "A luxurious custom home exterior.",
       "imageUrl": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxsdXh1cnklMjBob21lfGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "luxury home"
+      "imageHint": "luxury home",
+      "title": "Luxury Villa",
+      "category": "Residential"
     },
     {
       "id": "project-5",
       "description": "A modern retail storefront.",
       "imageUrl": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmV0YWlsJTIwc3RvcmV8ZW58MHx8fHwxNzY2MzIxMDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "retail store"
+      "imageHint": "retail store",
+      "title": "Downtown Retail Space",
+      "category": "Commercial"
     },
     {
       "id": "project-6",
       "description": "Structural steel frame of a new building.",
-      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib-rb-4.1.0&q=80&w=1080",
-      "imageHint": "steel frame"
+      "imageUrl": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxzdGVlbCUyMGZyYW1lfGVufDB8fHx8MTc2NjM0NDEwM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "steel frame",
+      "title": "Industrial Plant Framework",
+      "category": "Industrial"
     },
     {
       "id": "gallery-1",

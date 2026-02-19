@@ -1,50 +1,11 @@
 import Image from 'next/image';
-import { Eye, Handshake, Target, Users } from 'lucide-react';
 
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { teamMembers, values } from '@/lib/data';
 
 const aboutImage = PlaceHolderImages.find((img) => img.id === 'about-history');
-const teamMembers = [
-  {
-    name: 'John Doe',
-    title: 'Founder & CEO',
-    imageId: 'team-member-1',
-  },
-  {
-    name: 'Jane Smith',
-    title: 'Head of Operations',
-    imageId: 'team-member-2',
-  },
-  {
-    name: 'Mike Johnson',
-    title: 'Lead Architect',
-    imageId: 'team-member-3',
-  },
-];
-const values = [
-    {
-      icon: <Handshake className="h-8 w-8 text-accent" />,
-      title: 'Integrity',
-      description: 'We uphold the highest standards of integrity in all of our actions.'
-    },
-    {
-      icon: <Target className="h-8 w-8 text-accent" />,
-      title: 'Quality',
-      description: 'We provide outstanding craftsmanship and unsurpassed service that, together, deliver premium value to our clients.'
-    },
-    {
-      icon: <Users className="h-8 w-8 text-accent" />,
-      title: 'Commitment',
-      description: 'We are committed to our clients, our team members, our community, and to building a better future.'
-    },
-    {
-      icon: <Eye className="h-8 w-8 text-accent" />,
-      title: 'Vision',
-      description: 'We embrace innovation and are always looking for new and better ways to serve our clients.'
-    },
-];
 
 export default function AboutPage() {
   return (
@@ -94,13 +55,16 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {values.map((value, i) => (
-                <div key={value.title} className="text-center animate-fade-in-up" style={{ animationDelay: `${i * 0.15}s` }}>
-                    <div className="flex justify-center mb-4">{value.icon}</div>
-                    <h3 className="font-headline text-xl font-semibold mb-2">{value.title}</h3>
-                    <p className="text-muted-foreground">{value.description}</p>
-                </div>
-            ))}
+            {values.map((value, i) => {
+                const Icon = value.icon;
+                return (
+                    <div key={value.title} className="text-center animate-fade-in-up" style={{ animationDelay: `${i * 0.15}s` }}>
+                        <div className="flex justify-center mb-4"><Icon className="h-8 w-8 text-accent" /></div>
+                        <h3 className="font-headline text-xl font-semibold mb-2">{value.title}</h3>
+                        <p className="text-muted-foreground">{value.description}</p>
+                    </div>
+                );
+            })}
           </div>
         </div>
       </section>

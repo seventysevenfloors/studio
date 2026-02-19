@@ -1,34 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Building2, HardHat, HomeIcon } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { services } from '@/lib/data';
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero');
 const projectImages = PlaceHolderImages.filter((img) => img.id.startsWith('project-')).slice(0, 3);
-
-const services = [
-  {
-    icon: <HomeIcon className="h-10 w-10" />,
-    title: 'Residential Construction',
-    description: 'From custom homes to renovations, we bring your vision to life with quality craftsmanship.',
-    link: '/services',
-  },
-  {
-    icon: <Building2 className="h-10 w-10" />,
-    title: 'Commercial Projects',
-    description: 'We build functional and inspiring commercial spaces that meet your business needs.',
-    link: '/services',
-  },
-  {
-    icon: <HardHat className="h-10 w-10" />,
-    title: 'Industrial Solutions',
-    description: 'Specializing in large-scale industrial facilities with a focus on safety and efficiency.',
-    link: '/services',
-  },
-];
 
 export default function Home() {
   return (
@@ -72,22 +52,25 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {services.map((service, index) => (
-              <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 0.15}s` }}>
-                <CardHeader className="flex flex-col items-center gap-4">
-                  <div className="bg-primary text-primary-foreground p-4 rounded-full group-hover:bg-accent transition-colors duration-300">
-                    {service.icon}
-                  </div>
-                  <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">{service.description}</p>
-                  <Button variant="link" asChild className="text-accent-foreground font-bold">
-                    <Link href={service.link}>Learn More <ArrowRight className="ml-2 h-4 w-4" /></Link>
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
+            {services.map((service, index) => {
+              const Icon = service.icon;
+              return (
+                <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300 animate-fade-in-up" style={{ animationDelay: `${index * 0.15}s` }}>
+                  <CardHeader className="flex flex-col items-center gap-4">
+                    <div className="bg-primary text-primary-foreground p-4 rounded-full group-hover:bg-accent transition-colors duration-300">
+                      <Icon className="h-10 w-10" />
+                    </div>
+                    <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <p className="text-muted-foreground mb-4">{service.description}</p>
+                    <Button variant="link" asChild className="text-accent-foreground font-bold">
+                      <Link href={service.link}>Learn More <ArrowRight className="ml-2 h-4 w-4" /></Link>
+                    </Button>
+                  </CardContent>
+                </Card>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -113,7 +96,7 @@ export default function Home() {
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-colors duration-300" />
                   <div className="absolute bottom-0 left-0 p-4">
-                    <h3 className="font-headline text-xl font-bold text-white">Project Showcase</h3>
+                    <h3 className="font-headline text-xl font-bold text-white">{project.title}</h3>
                     <p className="text-white/90 text-sm">View Details</p>
                   </div>
                 </div>

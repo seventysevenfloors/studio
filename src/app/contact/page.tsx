@@ -1,29 +1,9 @@
-import { Mail, Phone, MapPin } from 'lucide-react';
 import Image from 'next/image';
 import { ContactForm } from '@/components/contact-form';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { contactDetails } from '@/lib/data';
 
 const mapImage = PlaceHolderImages.find((img) => img.id === 'contact-map');
-
-const contactDetails = [
-  {
-    icon: <MapPin className="h-8 w-8 text-primary" />,
-    title: 'Our Office',
-    text: '4th floor, chandra vilas complex, opposite Chandana shopping mall, CTM Road, Madanapalli.',
-  },
-  {
-    icon: <Mail className="h-8 w-8 text-primary" />,
-    title: 'Email Us',
-    text: 'arconstructionsandrealestates@gmail.com',
-    href: 'mailto:arconstructionsandrealestates@gmail.com',
-  },
-  {
-    icon: <Phone className="h-8 w-8 text-primary" />,
-    title: 'Call Us',
-    text: '+91 9666909414',
-    href: 'tel:+919666909414',
-  },
-];
 
 export default function ContactPage() {
   return (
@@ -41,19 +21,22 @@ export default function ContactPage() {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-3 gap-12">
             <div className="lg:col-span-1 space-y-8">
-              {contactDetails.map((detail, i) => (
-                <div key={detail.title} className="flex items-start gap-4 animate-fade-in-up" style={{ animationDelay: `${i * 0.15}s` }}>
-                  <div className="bg-primary/10 p-3 rounded-full">{detail.icon}</div>
-                  <div>
-                    <h3 className="font-headline text-xl font-bold">{detail.title}</h3>
-                    {detail.href ? (
-                      <a href={detail.href} className="text-muted-foreground hover:text-primary transition-colors">{detail.text}</a>
-                    ) : (
-                      <p className="text-muted-foreground">{detail.text}</p>
-                    )}
+              {contactDetails.map((detail, i) => {
+                const Icon = detail.icon;
+                return (
+                  <div key={detail.title} className="flex items-start gap-4 animate-fade-in-up" style={{ animationDelay: `${i * 0.15}s` }}>
+                    <div className="bg-primary/10 p-3 rounded-full"><Icon className="h-8 w-8 text-primary" /></div>
+                    <div>
+                      <h3 className="font-headline text-xl font-bold">{detail.title}</h3>
+                      {detail.href ? (
+                        <a href={detail.href} className="text-muted-foreground hover:text-primary transition-colors">{detail.text}</a>
+                      ) : (
+                        <p className="text-muted-foreground">{detail.text}</p>
+                      )}
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
             <div className="lg:col-span-2 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
                 <ContactForm />
