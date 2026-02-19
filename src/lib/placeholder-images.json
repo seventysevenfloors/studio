@@ -87,7 +87,7 @@
     {
       "id": "gallery-1",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/1.jpg",
+      "imageUrl": "/gallery/1.jpg",
       "imageHint": "construction project",
       "width": 800,
       "height": 600
@@ -95,7 +95,7 @@
     {
       "id": "gallery-2",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/2.jpg",
+      "imageUrl": "/gallery/2.jpg",
       "imageHint": "building exterior",
       "width": 800,
       "height": 600
@@ -103,7 +103,7 @@
     {
       "id": "gallery-3",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/3.jpg",
+      "imageUrl": "/gallery/3.jpg",
       "imageHint": "modern architecture",
       "width": 800,
       "height": 600
@@ -111,7 +111,7 @@
     {
       "id": "gallery-4",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/4.jpg",
+      "imageUrl": "/gallery/4.jpg",
       "imageHint": "residential home",
       "width": 800,
       "height": 600
@@ -119,7 +119,7 @@
     {
       "id": "gallery-5",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/5.jpg",
+      "imageUrl": "/gallery/5.jpg",
       "imageHint": "commercial building",
       "width": 800,
       "height": 600
@@ -127,7 +127,7 @@
     {
       "id": "gallery-6",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/6.jpg",
+      "imageUrl": "/gallery/6.jpg",
       "imageHint": "interior design",
       "width": 800,
       "height": 600
@@ -135,7 +135,7 @@
     {
       "id": "gallery-7",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/7.jpg",
+      "imageUrl": "/gallery/7.jpg",
       "imageHint": "construction site",
       "width": 800,
       "height": 600
@@ -143,7 +143,7 @@
     {
       "id": "gallery-8",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/8.jpg",
+      "imageUrl": "/gallery/8.jpg",
       "imageHint": "architectural detail",
       "width": 800,
       "height": 600
@@ -151,7 +151,7 @@
     {
       "id": "gallery-9",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/9.jpg",
+      "imageUrl": "/gallery/9.jpg",
       "imageHint": "luxury apartment",
       "width": 800,
       "height": 600
@@ -159,7 +159,7 @@
     {
       "id": "gallery-10",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/10.jpg",
+      "imageUrl": "/gallery/10.jpg",
       "imageHint": "office space",
       "width": 800,
       "height": 600
@@ -167,7 +167,7 @@
     {
       "id": "gallery-11",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/11.jpg",
+      "imageUrl": "/gallery/11.jpg",
       "imageHint": "building renovation",
       "width": 800,
       "height": 600
@@ -175,7 +175,7 @@
     {
       "id": "gallery-12",
       "description": "A showcase from our gallery of projects.",
-      "imageUrl": "/Gallery_stock/AR_GALLERY/12.jpg",
+      "imageUrl": "/gallery/12.jpg",
       "imageHint": "house exterior",
       "width": 800,
       "height": 600
