@@ -33,13 +33,13 @@
     {
       "id": "team-member-1",
       "description": "Portrait of a smiling male architect.",
-      "imageUrl": "https://images.unsplash.com/photo-1599696999755-fc47ec91ce78?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYWxlJTIwYXJjaGl0ZWN0fGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/AR_GALLERY/mama_pass.jpeg",
       "imageHint": "male architect"
     },
     {
       "id": "team-member-2",
       "description": "Portrait of a female project manager.",
-      "imageUrl": "https://images.unsplash.com/photo-1687254062905-8443494a4b4e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBtYW5hZ2VyfGVufDB8fHx8MTc2NjM4Mjc0Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "/AR_GALLERY/ashu_pass.jpeg",
       "imageHint": "female manager"
     },
     {

@@ -74,17 +74,17 @@ export const servicesData = [
 
 export const teamMembers = [
   {
-    name: 'John Doe',
+    name: 'Shaik Abdul Rehman',
     title: 'Founder & CEO',
     imageId: 'team-member-1',
   },
   {
-    name: 'Jane Smith',
+    name: 'Shaik Amaan',
     title: 'Head of Operations',
     imageId: 'team-member-2',
   },
   {
-    name: 'Mike Johnson',
+    name: 'Syed Sameer',
     title: 'Lead Architect',
     imageId: 'team-member-3',
   },
